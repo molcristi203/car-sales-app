@@ -14,7 +14,7 @@ public class DatabaseConnection {
     public DatabaseConnection() {
         driver = "com.mysql.cj.jdbc.Driver";
         connectionURL = "jdbc:mysql://localhost:3306/";
-        dbName = "main";
+        dbName = "carsales";
         ssl = "?autoReconnect=true&useSSL=false";
         username = "root";
         password = "paroladb";
